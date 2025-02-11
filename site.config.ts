@@ -6,6 +6,7 @@ export default defineSiteConfig({
   title: '追梦幻境云之都',
   author: {
     name: '何星梦',
+    avatar: "https://jsd2.dreamerhe.cn/gh/dreamerhe114514/picx-images-hosting@master/dreamerhe微信图片_20250211205333.9nzwsshfcx.webp"
   },
   description: '朝着梦想前进！.',
   social: [
@@ -64,3 +65,4 @@ export default defineSiteConfig({
     ],
   },
 })
+
