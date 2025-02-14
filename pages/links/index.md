@@ -1,7 +1,7 @@
 ---
 title: 我的小伙伴们
 keywords: 链接
-description: 云游的小伙伴们
+description: 何星梦的小伙伴们
 links:
   - url: https://www.yunyoujun.cn
     avatar: https://www.yunyoujun.cn/images/avatar.jpg
