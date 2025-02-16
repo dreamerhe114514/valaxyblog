@@ -5,7 +5,6 @@ date: 2025-01-24 17:48:57
 cover: false
 ---
 
-{% gallery %}
 
 
 
@@ -23,4 +22,3 @@ cover: false
 ![dreamerhe20250123153937](https://jsd2.dreamerhe.cn/gh/dreamerhe114514/picx-images-hosting@master/BlogANDdailypic/dreamerhe20250123153937.5fkot0jdpl.webp)
 ![dreamerhe20250123153930](https://jsd2.dreamerhe.cn/gh/dreamerhe114514/picx-images-hosting@master/BlogANDdailypic/dreamerhe20250123153930.54xuzv45jz.webp)
 
-{% endgallery %}
