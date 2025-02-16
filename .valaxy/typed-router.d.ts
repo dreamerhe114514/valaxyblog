@@ -25,10 +25,15 @@ declare module 'vue-router/auto-routes' {
     '/about/site': RouteRecordInfo<'/about/site', '/about/site', Record<never, never>, Record<never, never>>,
     '/archives/': RouteRecordInfo<'/archives/', '/archives', Record<never, never>, Record<never, never>>,
     '/categories/': RouteRecordInfo<'/categories/', '/categories', Record<never, never>, Record<never, never>>,
+    '/gallery/': RouteRecordInfo<'/gallery/', '/gallery', Record<never, never>, Record<never, never>>,
+    '/gallery/cloud/': RouteRecordInfo<'/gallery/cloud/', '/gallery/cloud', Record<never, never>, Record<never, never>>,
+    '/gallery/mingchaoimgku/': RouteRecordInfo<'/gallery/mingchaoimgku/', '/gallery/mingchaoimgku', Record<never, never>, Record<never, never>>,
+    '/gallery/mydogmd/': RouteRecordInfo<'/gallery/mydogmd/', '/gallery/mydogmd', Record<never, never>, Record<never, never>>,
+    '/gallery/nezhaghg/': RouteRecordInfo<'/gallery/nezhaghg/', '/gallery/nezhaghg', Record<never, never>, Record<never, never>>,
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
-    '/posts/hello-valaxy': RouteRecordInfo<'/posts/hello-valaxy', '/posts/hello-valaxy', Record<never, never>, Record<never, never>>,
+    '/posts/新博客新开始': RouteRecordInfo<'/posts/新博客新开始', '/posts/新博客新开始', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
 }
