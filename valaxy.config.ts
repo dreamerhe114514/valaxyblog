@@ -1,16 +1,17 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
-
+import { addonLightGallery } from 'valaxy-addon-lightgallery'
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
 ]
 
-/**
- * User Config
- */
 export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts
+
+  addons: [
+    addonLightGallery(),
+  ],
 
   theme: 'yun',
 
@@ -40,3 +41,4 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   unocss: { safelist },
 })
+

@@ -4,6 +4,28 @@ export default defineSiteConfig({
   url: 'https://blog.20097747.xyz/',
   lang: 'zh-CN',
   title: '追梦幻境云之都',
+  search: {
+    enable: true,
+    type: 'fuse',
+  },
+  fuse: {
+    options: {
+      keys: ['title', 'tags', 'categories', 'excerpt', 'content'],
+      /**
+       * @default 0.6
+       * @see https://www.fusejs.io/api/options.html#threshold
+       * 设置匹配阈值，越低越精确
+       */
+      // threshold: 0.6,
+      /**
+       * @default false
+       * @see https://www.fusejs.io/api/options.html#ignoreLocation
+       * 忽略位置
+       * 这对于搜索文档全文内容有用，若无需全文搜索，则无需设置此项
+       */
+      ignoreLocation: true,
+    },
+  },
   author: {
     name: '何星梦',
     avatar: "https://jsd2.dreamerhe.cn/gh/dreamerhe114514/picx-images-hosting@master/dreamerhe微信图片_20250211205333.9nzwsshfcx.webp"
@@ -47,10 +69,6 @@ export default defineSiteConfig({
       color: 'var(--va-c-text)',
     },
   ],
-
-  search: {
-    enable: false,
-  },
 
   sponsor: {
     enable: true,

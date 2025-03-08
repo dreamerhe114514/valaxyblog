@@ -33,7 +33,13 @@ declare module 'vue-router/auto-routes' {
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
+    '/posts/哪吒2影后感': RouteRecordInfo<'/posts/哪吒2影后感', '/posts/哪吒2影后感', Record<never, never>, Record<never, never>>,
+    '/posts/松溉古镇游': RouteRecordInfo<'/posts/松溉古镇游', '/posts/松溉古镇游', Record<never, never>, Record<never, never>>,
+    '/posts/汪星走好': RouteRecordInfo<'/posts/汪星走好', '/posts/汪星走好', Record<never, never>, Record<never, never>>,
+    '/posts/相思之梦': RouteRecordInfo<'/posts/相思之梦', '/posts/相思之梦', Record<never, never>, Record<never, never>>,
     '/posts/新博客新开始': RouteRecordInfo<'/posts/新博客新开始', '/posts/新博客新开始', Record<never, never>, Record<never, never>>,
+    '/posts/站长15岁啦': RouteRecordInfo<'/posts/站长15岁啦', '/posts/站长15岁啦', Record<never, never>, Record<never, never>>,
+    '/posts/Vue学习之路（1）': RouteRecordInfo<'/posts/Vue学习之路（1）', '/posts/Vue学习之路（1）', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
 }
